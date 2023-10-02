@@ -1,0 +1,43 @@
+.container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .gameBoard {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 10px;
+    justify-content: center;
+  }
+  
+  .box {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    cursor: pointer;
+    
+  }
+
+  .box:hover{
+    background-color: rgb(58, 58, 255);
+  }
+  
+  .white {
+    background-color: white;
+  }
+
+  .white:hover {
+    background-color: white;
+  }
+  
+  .red {
+    background-color: red;
+  }
+  
+  .startButton {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: rgb(35, 199, 84);
+  }

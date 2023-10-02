@@ -1,0 +1,390 @@
+.container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .textContainer {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .text {
+    font-size: 34px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 80px;
+  }
+  
+  .stateText {
+    font-size: 48px;
+    font-weight: normal;
+    margin-bottom: 80px;
+  }
+
+  .reverseStateText {
+    font-size: 48px;
+    font-weight: normal;
+    margin-bottom: 80px;
+    text-align: right;
+  }
+  
+  .description {
+    font-size: 32px;
+    font-weight: lighter;
+    margin-left: 80px;
+    margin-right: 80px;
+    text-align: left;
+  }
+
+  .reverseDescription {
+    font-size: 32px;
+    font-weight: lighter;
+    margin-left: 0px;
+    margin-right: 80px;
+    text-align: right;
+  }
+  
+  .subDescription {
+    font-size: 32px;
+    font-weight: lighter;
+    margin-bottom: 80px;
+    margin-left: 80px;
+    margin-right: 80px;
+    text-align: left;
+  }
+
+  .reverseSubDescription {
+    font-size: 32px;
+    font-weight: lighter;
+    margin-bottom: 80px;
+    margin-left: 0px;
+    margin-right: 80px;
+    text-align: right;
+  }
+
+  .description2 {
+    font-size: 32px;
+    font-weight: normal;
+    margin-left: 80px;
+    margin-right: 80px;
+    text-align: left;
+  }
+  
+  .subDescription2 {
+    font-size: 32px;
+    font-weight: normal;
+    margin-bottom: 80px;
+    margin-left: 80px;
+    margin-right: 80px;
+    text-align: left;
+  }
+
+  .reverseDescription2 {
+    font-size: 32px;
+    font-weight: normal;
+    margin-left: 0px;
+    margin-right: 80px;
+    text-align: right;
+  }
+  
+  .reverseSubDescription2 {
+    font-size: 32px;
+    font-weight: normal;
+    margin-bottom: 80px;
+    margin-left: 0px;
+    margin-right: 80px;
+    text-align: right;
+  }
+  
+
+  
+  /* Media Queries for Responsive Text Sizes */
+  @media  (max-width: 768px) {
+    .text {
+      font-size: 24px;
+    }
+  
+    .stateText {
+      margin-left: 1em;
+      margin-right: 1em;
+      margin-bottom: 25px;
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+    }
+  
+    .description,
+    .subDescription {
+      margin-left: 1em;
+      margin-right: 1em;
+      margin-bottom: 20px;
+      text-align: center;
+      font-size: 18px;
+    }
+
+    .description2,
+    .subDescription2 {
+      margin-left: 1em;
+      margin-right: 1em;
+      margin-bottom: 0px;
+      text-align: center;
+      font-size: 18px;
+      font-weight: normal;
+    }
+
+    .reverseStateText {
+      margin-left: 1em;
+      margin-right: 1em;
+      margin-bottom: 25px;
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+    }
+  
+    .reverseDescription,
+    .reverseSubDescription {
+      margin-left: 1em;
+      margin-right: 1em;
+      margin-bottom: 20px;
+      text-align: center;
+      font-size: 18px;
+    }
+
+    .reverseDescription2,
+    .reverseSubDescription2 {
+      margin-left: 1em;
+      margin-right: 1em;
+      margin-bottom: 0px;
+      text-align: center;
+      font-size: 18px;
+      font-weight: normal;
+    }
+
+    /* .image {
+        width: 100%;
+        height: auto;
+        max-width: 518px;
+        max-height: 518px;
+        opacity: 70%;
+        background-size: cover;
+      } */
+  }
+  
+  @media  (max-width: 1024px) {
+    .text {
+      font-size: 24px;
+    }
+  
+    .stateText {
+      margin-left: 1em;
+      margin-right: 1em;
+      margin-bottom: 25px;
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+    }
+  
+    .description,
+    .subDescription {
+      margin-left: 1em;
+      margin-right: 1em;
+      margin-bottom: 20px;
+      text-align: center;
+      font-size: 18px;
+    }
+
+    .description2,
+    .subDescription2 {
+      margin-left: 1em;
+      margin-right: 1em;
+      margin-bottom: 0px;
+      text-align: center;
+      font-size: 18px;
+      font-weight: normal;
+    }
+
+    .reverseStateText {
+      margin-left: 1em;
+      margin-right: 1em;
+      margin-bottom: 25px;
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+    }
+  
+    .reverseDescription,
+    .reverseSubDescription {
+      margin-left: 1em;
+      margin-right: 1em;
+      margin-bottom: 20px;
+      text-align: center;
+      font-size: 18px;
+    }
+
+    .reverseDescription2,
+    .reverseSubDescription2 {
+      margin-left: 1em;
+      margin-right: 1em;
+      margin-bottom: 0px;
+      text-align: center;
+      font-size: 18px;
+      font-weight: normal;
+    }
+
+    /* .image {
+        width: 100%;
+        height: auto;
+        max-width: 518px;
+        max-height: 518px;
+        opacity: 70%;
+        background-size: cover;
+      } */
+  }
+
+  @media  (max-width: 1440px) {
+    .text {
+      font-size: 24px;
+    }
+  
+    .stateText {
+      margin-left: 1em;
+      margin-right: 1em;
+      margin-bottom: 25px;
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+    }
+  
+    .description,
+    .subDescription {
+      margin-left: 1em;
+      margin-right: 1em;
+      margin-bottom: 20px;
+      text-align: center;
+      font-size: 18px;
+    }
+
+    .description2,
+    .subDescription2 {
+      margin-left: 1em;
+      margin-right: 1em;
+      margin-bottom: 0px;
+      text-align: center;
+      font-size: 18px;
+      font-weight: normal;
+    }
+
+    .reverseStateText {
+      margin-left: 1em;
+      margin-right: 1em;
+      margin-bottom: 25px;
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+    }
+  
+    .reverseDescription,
+    .reverseSubDescription {
+      margin-left: 1em;
+      margin-right: 1em;
+      margin-bottom: 20px;
+      text-align: center;
+      font-size: 18px;
+    }
+
+    .reverseDescription2,
+    .reverseSubDescription2 {
+      margin-left: 1em;
+      margin-right: 1em;
+      margin-bottom: 0px;
+      text-align: center;
+      font-size: 18px;
+      font-weight: normal;
+    }
+
+    /* .image {
+        width: 100%;
+        height: auto;
+        max-width: 518px;
+        max-height: 518px;
+        opacity: 70%;
+        background-size: cover;
+      } */
+  }
+
+  @media  (max-width: 1600px) {
+    .text {
+      font-size: 24px;
+    }
+  
+    .stateText {
+      margin-left: 1em;
+      margin-right: 1em;
+      margin-bottom: 25px;
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+    }
+  
+    .description,
+    .subDescription {
+      margin-left: 1em;
+      margin-right: 1em;
+      margin-bottom: 20px;
+      text-align: center;
+      font-size: 18px;
+    }
+
+    .description2,
+    .subDescription2 {
+      margin-left: 1em;
+      margin-right: 1em;
+      margin-bottom: 0px;
+      text-align: center;
+      font-size: 18px;
+      font-weight: normal;
+    }
+
+    .reverseStateText {
+      margin-left: 1em;
+      margin-right: 1em;
+      margin-bottom: 25px;
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+    }
+  
+    .reverseDescription,
+    .reverseSubDescription {
+      margin-left: 1em;
+      margin-right: 1em;
+      margin-bottom: 20px;
+      text-align: center;
+      font-size: 18px;
+    }
+
+    .reverseDescription2,
+    .reverseSubDescription2 {
+      margin-left: 1em;
+      margin-right: 1em;
+      margin-bottom: 0px;
+      text-align: center;
+      font-size: 18px;
+      font-weight: normal;
+    }
+
+    /* .image {
+        width: 100%;
+        height: auto;
+        max-width: 518px;
+        max-height: 518px;
+        opacity: 70%;
+        background-size: cover;
+      } */
+  }

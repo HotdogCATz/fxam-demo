@@ -1,0 +1,36 @@
+
+.container{
+    width: auto;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.spiderChart {
+    display: flex;
+    width: 600px;
+    
+    height: auto;
+    margin: auto auto;
+    display: block;
+    color:rgb(0, 255, 13);
+  }
+
+@media (max-width:1020px){
+    .container{
+        width:auto;
+
+    }
+
+    .spiderChart {
+        display: flex;
+        width: 400px;
+        max-width: 100%;
+        height: auto;
+        margin: auto auto;
+        display: block;
+        color:rgb(0, 255, 13);
+      }
+}

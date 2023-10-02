@@ -1,0 +1,52 @@
+/* styles/ReactionTime.module.css */
+.app {
+    display: flex;
+    width: 75%;
+    height: 24em;
+  }
+  
+  .clickArea {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the text vertically */
+    animation: gameAnimation 5s infinite;
+    cursor: pointer;
+    border: 2px solid rgb(165, 249, 255);
+    border-radius: 25px;
+  }
+
+  @keyframes gameAnimation {
+    0% {background: rgb(61, 201, 243);}
+    50%{background: rgb(63, 223, 196 );}
+    100% {background: rgb(61, 201, 243);}
+  }
+  
+  .clickArea.waiting {
+    animation: waitingAnimation 5s infinite;
+  }
+
+  @keyframes waitingAnimation {
+    0% {background: #14f195;}
+    50% {background: #00ce78;}
+    100% {background: #14f195;}
+  }
+
+  .clickArea.early {
+    animation: earlyAnimation 5s infinite;
+  }
+  
+  @keyframes earlyAnimation {
+    0% {background: #ff7070;}
+    50% {background: #f74857;}
+    100% {background: #ff7070;}
+  }
+
+  .displayText {
+    padding: 24px;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  
